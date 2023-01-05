@@ -1,9 +1,10 @@
 <?php
+
 namespace ResourceCatalog\Model;
 
 interface IResourceCatalogTypeName
 {
-    const TYPE_NAME = array(
+    public const TYPE_NAME = array(
         IResourceCatalog::TYPE['NULL'] => '',
         IResourceCatalog::TYPE['XBXZCF'] => '行政处罚公示信息',
         IResourceCatalog::TYPE['XBXZXK'] => '行政许可公示信息',
@@ -81,7 +82,7 @@ interface IResourceCatalogTypeName
         IResourceCatalog::TYPE['XZJFXX'] => '行政给付信息',
         IResourceCatalog::TYPE['JDJCXX'] => '监督检查信息',
         IResourceCatalog::TYPE['XZJLXX'] => '行政奖励信息',
-        IResourceCatalog::TYPE['QTXZZFXX'] => '其他行政执法信息',
+        IResourceCatalog::TYPE['QTXZZFXX'] => '行政补偿信息',
         IResourceCatalog::TYPE['HEIMDXX'] => '黑名单信息',
         IResourceCatalog::TYPE['HONGMDXX'] => '红名单信息',
         IResourceCatalog::TYPE['HYFJFLJG'] => '行业分级分类结果',
@@ -97,6 +98,7 @@ interface IResourceCatalogTypeName
         IResourceCatalog::TYPE['XYSFSQ'] => '信用示范（商圈、街区）',
         IResourceCatalog::TYPE['CCJCJG'] => '抽查检查结果',
         IResourceCatalog::TYPE['QYFRGGXYZHPJJG'] => '企业法人公共信用综合评价结果',
+        IResourceCatalog::TYPE['YSZYZGXX'] => '医生职业资格信息',
         //@position
     );
 }

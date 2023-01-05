@@ -1,9 +1,10 @@
 <?php
+
 namespace ResourceCatalog\Model;
 
 interface IResourceCatalogTypeEnName
 {
-    const TYPE_ENNAME = array(
+    public const TYPE_ENNAME = array(
         IResourceCatalog::TYPE['NULL'] => '',
         IResourceCatalog::TYPE['XBXZCF'] => 'xbxzcf',
         IResourceCatalog::TYPE['XBXZXK'] => 'xbxzxk',
@@ -97,6 +98,7 @@ interface IResourceCatalogTypeEnName
         IResourceCatalog::TYPE['XYSFSQ'] => 'xysfsq',
         IResourceCatalog::TYPE['CCJCJG'] => 'ccjcjg',
         IResourceCatalog::TYPE['QYFRGGXYZHPJJG'] => 'qyfrggxyzhpjjg',
+        IResourceCatalog::TYPE['YSZYZGXX'] => 'yszyzgxx',
         //@position
     );
 }

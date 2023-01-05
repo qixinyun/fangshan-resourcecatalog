@@ -5,7 +5,7 @@ namespace ResourceCatalog\Model;
 interface IResourceCatalogSubjectCategory
 {
     //自然人
-    const RESOURCE_CATALOG_NATURAL_PERSON = [
+    public const RESOURCE_CATALOG_NATURAL_PERSON = [
         'SXBZXRMD' => 3,
         'SPYPTSJBJLGR' => 11,
         'JDCWFXX' => 20,
@@ -26,9 +26,11 @@ interface IResourceCatalogSubjectCategory
         'DTJXJGRXX' => 57,
         'XSPJXX' => 60,
         'XYTXHMD' => 68,
+        'YSZYZGXX' => 92,
     ];
+
     // 企业
-    const RESOURCE_CATALOG_ENTERPRISE = [
+    public const RESOURCE_CATALOG_ENTERPRISE = [
         'XBXZCF' => 1,
         'XBXZXK' => 2,
         'FRXX' => 4,
