@@ -75,13 +75,8 @@ interface IResourceCatalog extends IResourceCatalogTypeName, IResourceCatalogTyp
         'JGRYXXSFGJ' => 67,
         'XYTXHMD' => 68,
         'SYDWJBXX'=>69,
-        'XZQZXX' => 70,
         'XZZSXX' => 71,
-        'XZCJXX' => 72,
-        'XZQRXX' => 73,
         'XZJFXX' => 74,
-        'JDJCXX' => 75,
-        'XZJLXX' => 76,
         'QTXZZFXX' => 77,
         'HEIMDXX' => 78,
         'HONGMDXX' => 79,
@@ -98,7 +93,12 @@ interface IResourceCatalog extends IResourceCatalogTypeName, IResourceCatalogTyp
         'XYSFSQ'=>90,
         'QYFRGGXYZHPJJG' => 91,
         'YSZYZGXX' => 92,
-        //@position_type_93
+        'XZCJ'=>93,
+        'XZJDJC'=>94,
+        'XZJL'=>95,
+        'XZQR'=>96,
+        'XZQZ'=>97,
+        //@position_type_98
         'TEST' => 500
     );
 
@@ -107,7 +107,12 @@ interface IResourceCatalog extends IResourceCatalogTypeName, IResourceCatalogTyp
             self::TYPE['TEST'],
             self::TYPE['XBXZCF'],
             self::TYPE['XBXZXK'],
-            self::TYPE['CCJCJG']
+            self::TYPE['CCJCJG'],
+            self::TYPE['XZQZ'],
+            self::TYPE['XZQR'],
+            self::TYPE['XZJL'],
+            self::TYPE['XZJDJC'],
+            self::TYPE['XZCJ'],
         ),
         IUserGroup::ID['FGW'] => array(
             self::TYPE['JGJCDXZJL'],
@@ -117,13 +122,8 @@ interface IResourceCatalog extends IResourceCatalogTypeName, IResourceCatalogTyp
             self::TYPE['HONGMDXX'],
             self::TYPE['HYFJFLJG'],
             self::TYPE['XYTXHMD'],
-            self::TYPE['XZQZXX'],
             self::TYPE['XZZSXX'],
-            self::TYPE['XZCJXX'],
-            self::TYPE['XZQRXX'],
             self::TYPE['XZJFXX'],
-            self::TYPE['JDJCXX'],
-            self::TYPE['XZJLXX'],
             self::TYPE['QTXZZFXX'],
             self::TYPE['QYHYSJ'],
             self::TYPE['QYFRGGXYZHPJJG'],
@@ -174,6 +174,7 @@ interface IResourceCatalog extends IResourceCatalogTypeName, IResourceCatalogTyp
         IUserGroup::ID['YKZRMZF'] => array(),
         IUserGroup::ID['BWDZRMZF'] => array(),
         IUserGroup::ID['DWRMZF'] => array(),
+        //@position_usergroup
     );
 
     public const STATUS_NORMAL = 0;
